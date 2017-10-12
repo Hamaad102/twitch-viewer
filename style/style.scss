@@ -1,0 +1,36 @@
+$pacifico: 'Pacifico', cursive;
+$quicksand: 'Quicksand', sans-serif;
+$twitchPurple: #6441A4;
+
+.live{
+  filter: grayscale(80%);
+}
+
+#player{
+  padding-top: 40px!important;
+}
+
+#header-background{
+  background-color: $twitchPurple;
+  width: 100%;
+  padding-bottom: 10px!important;
+}
+
+h1{
+  padding-top: 25px;
+  font-family: $pacifico!important;
+  font-size: 110px!important;
+}
+
+img{
+  border-radius: 50%;
+  width: 75px;
+  padding: 10px;
+}
+
+#instruct{
+  font-size: 12px;
+  padding-top: 50px;
+  font-family: $quicksand;
+  line-height: 90%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Twitch Viewer</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-12" id="header-background">
+        <h1 class="text-center">Twitch.tv</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="streamerIcons" class="col-sm-12 text-center"></div>
+    </div>
+
+    <div id="player" class="text-center">
+      <iframe
+        src="http://player.twitch.tv/?channel=summit1g"
+        height="480"
+        width="854"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen="true">
+      </iframe>
+    </div>
+
+    <div id="instruct" class="row">
+        <div class="col-sm-12 text-center">
+          <p>Click on a streamer's logo to start watching!</p>
+          <p>A gray logo means offline, colourful means online!</p>
+          <p>Made by Hamaad Chughtai</p>
+        </div>
+      </div>
+
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
