@@ -5,7 +5,7 @@ let clientId = '?client_id=hij00h6npyzr6fztla37oujfjk03qx';
 let streamFrame = document.querySelector('iframe');
 let streamerIcons = document.getElementById('streamerIcons');
 streamerIcons.addEventListener('click',function(event){
-  streamFrame.src = "http://player.twitch.tv/?channel="+event.target.id;
+  streamFrame.src = "https://player.twitch.tv/?channel="+event.target.id;
 });
 
 //iijeriichoii Information
